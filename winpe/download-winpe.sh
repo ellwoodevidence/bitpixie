@@ -21,7 +21,7 @@ __ "Fetching Windows 11"
 
 __ "Extracting artifacts from Windows ISO"
 
-7z e Win11_24H2_EnglishInternational_x64.iso sources/boot.wim boot/boot.sdi
+7z e Win11_25H2_EnglishInternational_x64.iso sources/boot.wim boot/boot.sdi
 
 wiminfo boot.wim 1 --boot
 wiminfo boot.wim
