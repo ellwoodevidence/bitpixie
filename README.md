@@ -154,6 +154,10 @@ cd pxe && ./start-pxe-winpe.sh eth0
 Let Windows boot normally, on the logon screen hold down the *Shift*
 key and select the *Restart* option from the power menu.
 
+> [!note]
+> Alternatively, you can try to repeatedly abort the regular boot
+> process until you end up in the [Windows recovery environment (WinRE)](https://learn.microsoft.com/en-us/windows-hardware/manufacture/desktop/windows-recovery-environment--windows-re--technical-reference?view=windows-11#entry-points-into-winre).
+
 Windows will reboot into a recovery mode. Select *Troubleshoot > Advanced
 Option > Command Prompt*. If desired, select *Change keyboard layout*. When
 prompted for BitLocker recovery key, select *Skip this drive*.
